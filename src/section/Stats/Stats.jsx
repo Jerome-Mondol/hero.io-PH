@@ -10,7 +10,7 @@ const Stats = () => {
             <div className='w-[95%] flex justify-center sm:items-center items-left flex-col py-5 mx-auto' >
                 <h1 className='py-10 text-4xl font-bold  ' >Trusted by Millions, Built for You</h1> 
 
-                <div className='flex w-[70%] md:w-[60%] lg:w-[45%] justify-between sm:items-center items-left flex-col sm:flex-row' >   
+                <div className='flex w-[70%] lg:w-[45%] justify-between sm:items-center items-left flex-col sm:flex-row' >   
                     {
                         statsCard.map(({ id, title, count, improvement }) => (
                             <StatsCard key={id} title={title} count={count} improvement={improvement}/>
