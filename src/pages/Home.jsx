@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Hero from '../section/Hero/Hero'
+import Stats from '../section/Stats/Stats'
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
         <div className='w-[100vw]' >
             <Navbar />
             <Hero />
+            <Stats />
         </div>    
     </>
   )

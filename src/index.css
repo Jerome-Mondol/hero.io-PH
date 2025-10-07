@@ -4,6 +4,10 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+body {
+    overflow-x: hidden;
+}
+
 * {
     font-family: "Inter";
 }
