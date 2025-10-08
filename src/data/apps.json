@@ -1,0 +1,364 @@
+{
+    "appsCards": [
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/02/07/14/45/smartphone-1184883_1280.png",
+    "title": "Travel Buddy",
+    "companyName": "WanderTech",
+    "id": 9,
+    "description": "Plan your trips and explore destinations worldwide",
+    "size": 90,
+    "reviews": 2400,
+    "ratingAvg": 4.6,
+    "downloads": "4.3M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1370 }
+    ]
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/02/07/14/45/smartphone-1184883_1280.png",
+    "title": "Study Planner",
+    "companyName": "EduEase",
+    "id": 10,
+    "description": "Organize study sessions and manage your academic goals",
+    "size": 40,
+    "reviews": 1300,
+    "ratingAvg": 4.4,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 555 }
+    ]
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/02/07/14/45/smartphone-1184883_1280.png",
+    "title": "Daily Journal",
+    "companyName": "MindSpace",
+    "id": 11,
+    "description": "Write, reflect, and track your daily habits and thoughts",
+    "size": 25,
+    "reviews": 800,
+    "ratingAvg": 4.3,
+    "downloads": "1.1M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 325 }
+    ]
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/02/07/14/45/smartphone-1184883_1280.png",
+    "title": "Coffee Finder",
+    "companyName": "BrewSoft",
+    "id": 12,
+    "description": "Find the best coffee shops near you instantly",
+    "size": 33,
+    "reviews": 2100,
+    "ratingAvg": 4.5,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1090 }
+    ]
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/02/07/14/45/smartphone-1184883_1280.png",
+    "title": "Sleep Tracker",
+    "companyName": "DreamTech",
+    "id": 13,
+    "description": "Monitor your sleep cycles and improve your rest quality",
+    "size": 60,
+    "reviews": 2900,
+    "ratingAvg": 4.6,
+    "downloads": "6.2M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1600 }
+    ]
+  },
+  {
+  "image": "https://cdn.pixabay.com/photo/2016/02/07/14/45/smartphone-1184883_1280.png",
+    "title": "ChatWave",
+    "companyName": "Connectify",
+    "id": 14,
+    "description": "Connect and chat with friends around the world",
+    "size": 95,
+    "reviews": 5200,
+    "ratingAvg": 4.7,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 3460 }
+    ]
+  },
+  {
+"image": "https://cdn.pixabay.com/photo/2016/02/07/14/45/smartphone-1184883_1280.png",
+    "title": "Smart Calendar",
+    "companyName": "OrganizeIt",
+    "id": 15,
+    "description": "Sync and manage all your events across devices",
+    "size": 48,
+    "reviews": 1550,
+    "ratingAvg": 4.4,
+    "downloads": "2.8M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 660 }
+    ]
+  },
+  {
+  "image": "https://cdn.pixabay.com/photo/2016/02/07/14/45/smartphone-1184883_1280.png",
+    "title": "Expense Splitter",
+    "companyName": "MoneyMate",
+    "id": 16,
+    "description": "Split bills and track group expenses easily",
+    "size": 37,
+    "reviews": 980,
+    "ratingAvg": 4.3,
+    "downloads": "1.5M",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 425 }
+    ]
+  },
+  {
+"image": "https://cdn.pixabay.com/photo/2016/02/07/14/45/smartphone-1184883_1280.png",
+    "title": "Podcast Hub",
+    "companyName": "Streamify",
+    "id": 17,
+    "description": "Listen and subscribe to your favorite podcasts",
+    "size": 75,
+    "reviews": 4400,
+    "ratingAvg": 4.6,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 3040 }
+    ]
+  },
+  {
+"image": "https://cdn.pixabay.com/photo/2016/02/07/14/45/smartphone-1184883_1280.png",
+    "title": "Habit Builder",
+    "companyName": "GrowDaily",
+    "id": 18,
+    "description": "Build and maintain good habits with streak tracking",
+    "size": 41,
+    "reviews": 2150,
+    "ratingAvg": 4.5,
+    "downloads": "3.2M",
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1135 }
+    ]
+  },
+  {
+  "image": "https://cdn.pixabay.com/photo/2016/02/07/14/45/smartphone-1184883_1280.png",
+    "title": "CodeMaster",
+    "companyName": "DevSphere",
+    "id": 19,
+    "description": "Learn to code with challenges and interactive lessons",
+    "size": 95,
+    "reviews": 4700,
+    "ratingAvg": 4.8,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 320 },
+      { "name": "4 star", "count": 1100 },
+      { "name": "5 star", "count": 3110 }
+    ]
+  },
+  {
+   "image": "https://cdn.pixabay.com/photo/2016/02/07/14/45/smartphone-1184883_1280.png",
+    "title": "Crypto Tracker",
+    "companyName": "FinTech World",
+    "id": 20,
+    "description": "Track live crypto prices and build your watchlist",
+    "size": 70,
+    "reviews": 5600,
+    "ratingAvg": 4.6,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 1100 },
+      { "name": "5 star", "count": 3940 }
+    ]
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/02/07/14/45/smartphone-1184883_1280.png",
+    "title": "Idea Vault",
+    "companyName": "ThinkFlow",
+    "id": 21,
+    "description": "Capture and organize your creative ideas instantly",
+    "size": 30,
+    "reviews": 1200,
+    "ratingAvg": 4.3,
+    "downloads": "1.8M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 540 }
+    ]
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/02/07/14/45/smartphone-1184883_1280.png",
+    "title": "Map Navigator",
+    "companyName": "GeoLabs",
+    "id": 22,
+    "description": "Navigate with precision using smart offline maps",
+    "size": 150,
+    "reviews": 6800,
+    "ratingAvg": 4.7,
+    "downloads": "15M",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 4630 }
+    ]
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/02/07/14/45/smartphone-1184883_1280.png",
+    "title": "SocialPro",
+    "companyName": "NetFusion",
+    "id": 23,
+    "description": "Grow your personal brand and connect with audiences",
+    "size": 85,
+    "reviews": 4700,
+    "ratingAvg": 4.4,
+    "downloads": "7.8M",
+    "ratings": [
+      { "name": "1 star", "count": 75 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 3025 }
+    ]
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/02/07/14/45/smartphone-1184883_1280.png",
+    "title": "Health Mate",
+    "companyName": "LifeSync",
+    "id": 24,
+    "description": "Monitor your health stats and wellness habits",
+    "size": 65,
+    "reviews": 5200,
+    "ratingAvg": 4.5,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 3650 }
+    ]
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/02/07/14/45/smartphone-1184883_1280.png",
+    "title": "Time Master",
+    "companyName": "FocusWorks",
+    "id": 25,
+    "description": "Boost productivity with smart time-tracking tools",
+    "size": 55,
+    "reviews": 2600,
+    "ratingAvg": 4.6,
+    "downloads": "4.6M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1580 }
+    ]
+  },
+  {
+"image": "https://cdn.pixabay.com/photo/2016/02/07/14/45/smartphone-1184883_1280.png",
+    "title": "Language Buddy",
+    "companyName": "TalkTech",
+    "id": 26,
+    "description": "Practice languages with AI-powered conversations",
+    "size": 120,
+    "reviews": 3100,
+    "ratingAvg": 4.7,
+    "downloads": "6.1M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1800 }
+    ]
+  },
+  {
+  "image": "https://cdn.pixabay.com/photo/2016/02/07/14/45/smartphone-1184883_1280.png",
+    "title": "Beat Mixer",
+    "companyName": "AudioPro",
+    "id": 27,
+    "description": "Create and mix your own beats like a pro DJ",
+    "size": 95,
+    "reviews": 4100,
+    "ratingAvg": 4.5,
+    "downloads": "5.9M",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 950 },
+      { "name": "5 star", "count": 2730 }
+    ]
+  },
+  {
+   "image": "https://cdn.pixabay.com/photo/2016/02/07/14/45/smartphone-1184883_1280.png",
+    "title": "Recipe Tracker",
+    "companyName": "KitchenSync",
+    "id": 28,
+    "description": "Save and track your favorite recipes easily",
+    "size": 50,
+    "reviews": 1900,
+    "ratingAvg": 4.4,
+    "downloads": "2.5M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1000 }
+    ]
+  }
+  ]
+}

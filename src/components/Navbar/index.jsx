@@ -44,7 +44,7 @@ const Navbar = () => {
                         { openNav && 
                             <div className='flex flex-col absolute top-19 bg-light rounded-sm p-3 gap-3 duration-100 ease-out' >
                                 { 
-                                    navLinks.map(elem => <NavLink to={'/'} className='text-dark text-lg' ></NavLink>)
+                                    navLinks.map(({ path, title }) => <NavLink to={path} key={path} className={({isPending, isActive}) => isPending ? "text-violet-400" : isActive ? "text-violet-600 underline" : "text-dark"}  >{title}</NavLink>)
                                 }
                             </div>
                         }
