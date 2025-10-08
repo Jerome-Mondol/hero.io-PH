@@ -3,6 +3,9 @@ import { useParams } from "react-router";
 import Download from '../../assets/icon-downloads.png'
 import Ratings from '../../assets/icon-ratings.png'
 import Review from '../../assets/icon-review.png'
+import { useContext } from "react"
+import { AppContext } from "../../context/AppContext"
+
 
 
 import data from '../../data/apps.json'
@@ -11,13 +14,21 @@ const appsCard = data.appsCards;
 
 const AppDetailsCard = () => {
 
+
+    
+
+
     const params = useParams();
     const { id } = params;
 
     const app = appsCard.find(a => a.id == parseInt(id))
     const { title, companyName, downloads, ratings, ratingAvg, size, reviews, description, image } = app;
 
-    // console.log(app);
+    const { handleDownload, setSelectedApp } = useContext(AppContext)
+    const handleInstall = (e) => {
+        handleDownload(app);
+        setSelectedApp(app);
+    }
 
   return (
     <>
@@ -47,7 +58,7 @@ const AppDetailsCard = () => {
                             <h1 className='text-3xl font-bold'   >{reviews}</h1>
                         </div>
                     </div>
-                    <button className='bg-[#00d390] px-5 py-2 text-light rounded-md my-3' >Install Now ({size} MB)</button>
+                    <button onClick={handleInstall} className='bg-[#00d390] px-5 py-2 text-light rounded-md my-3' >Install Now ({size} MB)</button>
                     </div>
                 </div>
                 <hr className='text-highlighted' />
