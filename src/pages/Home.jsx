@@ -9,11 +9,9 @@ const Home = () => {
   return (
     <>
         <div className='w-[100vw]' >
-            <Navbar />
             <Hero />
             <Stats />
             <TrendingApps />
-            <Footer />
         </div>    
     </>
   )

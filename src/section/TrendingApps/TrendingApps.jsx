@@ -1,7 +1,8 @@
 import React from 'react'
-import { homeAppCards } from '../../data/data'
+import data from '../../data/data.json'
 import AppCard from '../../components/AppCard'
 
+const homeAppCards = data.homeAppCards;  
 const TrendingApps = () => {
   return (
     <>

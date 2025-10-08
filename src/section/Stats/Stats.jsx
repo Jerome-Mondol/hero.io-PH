@@ -1,7 +1,8 @@
 import React from 'react'
 import StatsCard from '../../components/StatsCard'
-import { statsCard } from '../../data/data'
+import data  from '../../data/data.json'
 
+const statsCard = data.statsCard;
 
 const Stats = () => {
   return (
