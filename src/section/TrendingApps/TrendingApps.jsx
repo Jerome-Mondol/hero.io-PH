@@ -1,6 +1,7 @@
 import React from 'react'
 import data from '../../data/data.json'
 import AppCard from '../../components/AppCard'
+import { Link } from 'react-router'
 
 const homeAppCards = data.homeAppCards;  
 const TrendingApps = () => {
@@ -17,7 +18,7 @@ const TrendingApps = () => {
                         ))
                     }                    
                 </div>
-                <button className="px-7 py-2 bg-gradient-to-br from-purple-700 to-purple-500 flex justify-center items-center gap-2 rounded-sm my-5" >Show all</button>
+                <Link to={'/apps'} ><button className="px-7 py-2 bg-gradient-to-br from-purple-700 to-purple-500 flex justify-center items-center gap-2 rounded-sm my-5" >Show all</button></Link>
             </div>
         </div>
     </>
