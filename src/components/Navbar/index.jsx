@@ -35,7 +35,7 @@ const Navbar = () => {
                             </div>
                         }
                     </div>
-                    <button className="px-3 py-2 bg-gradient-to-br from-purple-700 to-purple-500 flex justify-center items-center gap-2 rounded-sm" ><FaGithub />Contribute</button>
+                    <a href="https://github.com/Jerome-Mondol" target='_blank'><button className="px-3 py-2 bg-gradient-to-br from-purple-700 to-purple-500 flex justify-center items-center gap-2 rounded-sm" ><FaGithub />Contribute</button></a>
             </div>
         </div> 
     </>

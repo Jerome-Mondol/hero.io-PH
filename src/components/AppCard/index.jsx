@@ -6,8 +6,8 @@ const AppCard = ({image, title, download, ratingAvg}) => {
   return (
     <>
         <div className='w-full' >
-        <div className='bg-light p-4 rounded-md shadow-lg h-30 sm:h-auto w-[100%] sm:w-[90%] flex flex-row sm:flex-col' >
-            <img src={image} alt="" className='w-20 h-20 sm:h-72 sm:w-auto rounded-sm' />    
+        <div className='bg-light p-4 rounded-md shadow-lg h-30 sm:h-auto w-[100%] flex flex-row sm:flex-col' >
+            <img src={image} alt="" className='w-20 h-20 sm:h-72 sm:w-auto rounded-sm object-cover' />    
 
             <div>
                 <h1 className='text-dark' >{title}</h1>
