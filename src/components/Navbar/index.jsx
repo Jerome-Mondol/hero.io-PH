@@ -19,7 +19,7 @@ const Navbar = () => {
             path: "/apps"
         },
         {
-            title: "Installed Apps",
+            title: "installation",
             path: "/installed"
         }
     ]);

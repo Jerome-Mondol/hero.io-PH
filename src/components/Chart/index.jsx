@@ -1,9 +1,26 @@
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, ResponsiveContainer, Tooltip } from 'recharts';
-import data from '../../data/apps.json'
-const appsCard = data.appsCards;
+import appsData from '../../data/apps.json'
+import homeAppData from '../../data/data.json'
 
 const RatingsChart = ({ appId }) => {
-  const selectedApp = appsCard.find(app => app.id === parseInt(appId));
+
+  const allApps = [
+    ...(appsData?.appsCards || []),
+    ...(homeAppData?.homeAppCards || []),
+  ];
+
+  const selectedApp = allApps.find(app => app.id === parseInt(appId));
+
+
+  if (!selectedApp || !selectedApp.ratings) {
+    return (
+      <div className="text-center text-red-500 py-10">
+        ⚠️ Ratings data not available for this app.
+      </div>
+    );
+  }
+
+
   
   const chartData = selectedApp.ratings.map(rating => ({
     ...rating,
