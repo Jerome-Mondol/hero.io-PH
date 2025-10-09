@@ -12,11 +12,15 @@ import { toast } from 'sonner';
 import appsData from '../../data/apps.json'
 import homeAppData from '../../data/data.json'
 import RatingsChart from '../Chart';
+import AppError from '../../pages/AppError';
 
 const AppDetailsCard = () => {
 
     const params = useParams();
     const { id } = params;
+
+    
+
     const { handleDownload, setSelectedApp, downloads: downloadedApps  } = useContext(AppContext)
     const allApps = [
         ...(appsData?.appsCards || []),
@@ -24,10 +28,13 @@ const AppDetailsCard = () => {
     ];
 
     const app = allApps.find(a => a.id == parseInt(id))
-    const { title, companyName, downloads, ratings, ratingAvg, size, reviews, description, image } = app;
-
+    
     const [installed, setInstalled] = useState(false);
-
+    
+    if(!app) {
+        return <AppError />
+    }
+    const { title, companyName, downloads, ratings, ratingAvg, size, reviews, description, image } = app;
 
 
     useEffect(() => {

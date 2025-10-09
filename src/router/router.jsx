@@ -3,7 +3,8 @@ import Layout from "../layout/Layout"
 import Home from "../pages/Home"
 import Apps from "../pages/Apps";
 import AppDetailsCard from "../components/AppDetailsCard";
-import InstalledApps from "../section/InstalledApps/InstalledApps";
+import Installed from "../pages/Installed";
+import PageError from "../pages/PageError";
 
 const router = createBrowserRouter([
   {
@@ -25,12 +26,13 @@ const router = createBrowserRouter([
       },
       {
         path: 'installed',
-        element: <InstalledApps />,
+        element: <Installed />,
       },
+      
       {
         path: "*",
-        element: <h1>Page Not Found</h1>,
-      },
+        element: <PageError />
+      }     
     ],
   },
 ]);
