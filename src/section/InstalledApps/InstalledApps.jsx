@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import AppsCard from '../../data/apps.json'
 import HomeCards from '../../data/data.json'
 import InstalledAppCard from '../../components/InstalledApp';
+import { toast } from 'sonner'
 
 const InstalledApps = () => {
 
@@ -78,6 +79,7 @@ const InstalledApps = () => {
         const installed = getInstalledApps()
         setInstalledApps(installed)
         setSortedApps(applySort(installed, sortBy))
+        toast.success("App uninstalled successfully")
     }
 
     return (
