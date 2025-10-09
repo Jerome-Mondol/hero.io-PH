@@ -3,6 +3,7 @@ import Layout from "../layout/Layout"
 import Home from "../pages/Home"
 import Apps from "../pages/Apps";
 import AppDetailsCard from "../components/AppDetailsCard";
+import InstalledApps from "../section/InstalledApps/InstalledApps";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: 'apps/:id',
         element: <AppDetailsCard />,
+      },
+      {
+        path: 'installed',
+        element: <InstalledApps />,
       },
       {
         path: "*",
